@@ -39,20 +39,4 @@ Add the following to 3akai-ux/ui/js/me.js to show it as one new menu on the left
       {
         'id': 'discussions',
         'title': oae.api.i18n.translate('__MSG__MY_DISCUSSIONS__'),
-        'icon': 'fa-comments',
-        'closeNav': true,
-        'layout': [
-        {
-          'width': 'col-md-12',
-          'widgets': [
-          {
-            'name': 'discussionslibrary',
-            'settings': {
-              'context': oae.data.me,
-              'canManage': true
-            }
-          }
-          ]
-        }
-        ]
-        },
+.....
